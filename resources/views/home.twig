@@ -1,0 +1,11 @@
+{% include 'templates/app.twig' %}
+
+{% block contents %}
+    <div class="row">
+        {% for index, flight in flights %}
+            <div class="col-md-4 col-sm-6">
+                Test
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
